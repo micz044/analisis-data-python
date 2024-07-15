@@ -51,7 +51,7 @@ st.write(
     """
     - **Nama:** Michael Vincent Efren Malamo
     - **Email:** alvaromichael044@gmail.com
-    - **ID Dicoding:**alvaromichael044@gmail.com
+    - **ID Dicoding:** alvaromichael044@gmail.com
     """
 )
 # RFM Analysis Section
