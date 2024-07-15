@@ -6,11 +6,11 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
 # buat relative path
-day_data_path = 'submission/data/day.csv'
-hour_data_path = 'submission/data/hour.csv'
+day_data_path = 'data/day.csv'
+hour_data_path = 'data/hour.csv'
 
 # Load data
-day_data = pd.read_csv('submission/data/day.csv')
+day_data = pd.read_csv(day_data_path)
 hour_data = pd.read_csv(hour_data_path)
 
 # Grouping data
