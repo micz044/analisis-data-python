@@ -10,7 +10,7 @@ day_data_path = 'submission/data/day.csv'
 hour_data_path = 'submission/data/hour.csv'
 
 # Load data
-day_data = pd.read_csv(day_data_path)
+day_data = pd.read_csv('submission/data/day.csv')
 hour_data = pd.read_csv(hour_data_path)
 
 # Grouping data
