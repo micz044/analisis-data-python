@@ -5,9 +5,13 @@ import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
-# buat relative path
+# buat relative path (untuk GitHub)
 day_data_path = 'data/day.csv'
 hour_data_path = 'data/hour.csv'
+
+# buat relative path (untuk Local)
+# day_data_path = '../data/day.csv'
+# hour_data_path = '../data/hour.csv'
 
 # Load data
 day_data = pd.read_csv(day_data_path)
